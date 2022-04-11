@@ -1,3 +1,9 @@
+/* build style.css (./public/css/style.css):
+/* >> npm run builc-css
+/*
+/* you can see "build-css" script in package.json file
+/* */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
