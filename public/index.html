@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Personal Site</title>
-     
+    <script src="js/alpine.js" async></script>
 </head>
 <body 
-  class="bg-orange-300" 
+  class="bg-white" 
   x-data="{ openMenu : false }"
   :class="openMenu ? 'overflow-hidden' : 'overflow-visible' "
   >
@@ -97,11 +97,11 @@
           <!-- set your custom text in {data-type}atrribute -->
           <h3 class="
             uppercase
-            text-[#d0d0d0]
+            text-gray-200
             font-normal text-xl
             tracking-[6px]
             typewrite" data-period="2000" 
-            data-type='[ "a designer.", "a php coder.", "who loves to learn more." ]'>  
+            data-type='[ "a designer.", "a php coder.", "who loves to learn more" ]'>  
     <span class="wrap"></span>
           </h3>
         </div>
@@ -210,6 +210,6 @@
   
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
-  <script src="js/alpine.js"></script>
+  
 </body>
 </html>
