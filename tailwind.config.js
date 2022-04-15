@@ -3,9 +3,15 @@ module.exports = {
     './components/**/*.{html,js}',
     './pages/**/*.{html,js}',
     './public/index.html',
+    './public/backindex.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+         'istok':'Istok Web'
+      }
+    }
+    
   },
   plugins: [],
 }
