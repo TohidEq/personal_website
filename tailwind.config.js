@@ -15,7 +15,10 @@ module.exports = {
         'black': '#000000',
         'custom-orange': '#E25822',
         'custom-gray': '#ECECEB'
-      }
+      },
+      backgroundImage: {
+        'bg-about': "url('../img/bg-about.svg')",
+      },
     }
     
   },
