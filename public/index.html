@@ -31,9 +31,9 @@
     <button class="col-end-13 group rtl-grid " @click="openMenu = !openMenu"
       :aria-expanded="openMenu" aria-controls="mobile-navigation" aria-label="Navigation Menu">
       <div class="rtl-grid container w-8">
-        <div class="menu-toggle-btn-icon m-0 my-[5px] transition-all  w-8  h-[5px] bg-white "></div>
-        <div class="menu-toggle-btn-icon m-0 mb-[5px] transition-all  w-8  h-[5px] bg-white "></div>
-        <div class="menu-toggle-btn-icon m-0 mb-[5px] transition-all  w-6 group-hover:w-8 h-[5px]  bg-white "></div>
+        <div class="menu-toggle-btn-icon m-0 my-[5px] transition-all duration-1000 w-8  h-[5px] bg-custom-gray "></div>
+        <div class="menu-toggle-btn-icon m-0 mb-[5px] transition-all duration-600 w-8  h-[5px] bg-custom-gray "></div>
+        <div class="menu-toggle-btn-icon m-0 mb-[5px] transition-all duration-300 w-6 group-hover:w-8 h-[5px]  bg-custom-gray "></div>
       </div>
     </button>
 
@@ -43,7 +43,7 @@
       :class="openMenu ? 'visible' : 'invisible' " x-cloak>
 
       <!-- UL Links -->
-      <ul class="absolute top-0 right-0 bottom-0 w-8/12 lg:w-5/12 py-4 bg-white drop-shadow-2xl z-10 transition-all"
+      <ul class="absolute top-0 right-0 bottom-0 w-8/12 lg:w-5/12 py-4 bg-custom-gray drop-shadow-2xl z-10 transition-all"
         :class="openMenu ? 'translate-x-0' : 'translate-x-full'">
 
         <li class="border-b border-inherit">
@@ -83,7 +83,7 @@
     <div class="absolute text-white z-[11] top-0 h-full w-full grid content-center">
       <div class="intro-content grid grid-cols-6">
         <div class="col-start-2 col-span-4">
-          <h2 class="text-[80px] mb-[10px] leading-[1.2]">Hey! I'm
+          <h2 class="text-[80px] mb-[10px] leading-[1.2] text-custom-gray">Hey! I'm
              <span class="font-bold" 
               style="background-image: url('img/bg-home-text.jpg');
               -webkit-text-fill-color: transparent;
@@ -97,7 +97,7 @@
           <!-- set your custom text in {data-type}atrribute -->
           <h3 class="
             uppercase
-            text-gray-200
+            text-custom-gray
             font-normal text-xl
             tracking-[6px]
             typewrite" data-period="2000" 
@@ -136,12 +136,12 @@
             if (scroll<0) {
               
               //changing menu btn elements to white ...
-              $(".menu-toggle-btn-icon").css("background-color","rgb(255,255,255)");
+              $(".menu-toggle-btn-icon").css("background-color","#ECECEB"); //custom-gray color
 
             }else{
 
               //changing  color to black ...
-              $(".menu-toggle-btn-icon").css("background-color","rgb(0,0,0)");
+              $(".menu-toggle-btn-icon").css("background-color","#10316B"); //custom-navy color
             }
         })
     })

@@ -9,6 +9,12 @@ module.exports = {
     extend: {
       fontFamily:{
          'istok':'Istok Web'
+      },
+      colors: {
+        'custom-navy': '#10316B',
+        'black': '#000000',
+        'custom-orange': '#E25822',
+        'custom-gray': '#ECECEB'
       }
     }
     
