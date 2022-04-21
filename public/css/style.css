@@ -618,6 +618,10 @@ html {
   margin-bottom: 4rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .block{
   display: block;
 }
@@ -666,6 +670,12 @@ html {
 
 .h-2{
   height: 0.5rem;
+}
+
+.h-max{
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .w-full{
@@ -728,6 +738,10 @@ html {
 
 .items-center{
   align-items: center;
+}
+
+.items-stretch{
+  align-items: stretch;
 }
 
 .justify-center{
@@ -865,6 +879,10 @@ html {
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-\[80px\]{
