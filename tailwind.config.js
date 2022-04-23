@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'smm': '230px',
+      },
       fontFamily:{
          'istok':'Istok Web'
       },
