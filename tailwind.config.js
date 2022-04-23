@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage: {
         'bg-about': "url('../img/bg-about.svg')",
+        'bg-service': "url('../img/bg-service.jpg')",
       },
     }
     
