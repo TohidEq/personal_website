@@ -9,7 +9,7 @@
     <a href="https://github.com/TohidEq/personal_website"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/TohidEq/personal_website">View Demo</a>
+    <a href="https://verdant-piroshki-de0372.netlify.app/public/">View Demo</a>
     .
     <a href="https://github.com/TohidEq/personal_website/issues">Report Bug</a>
     .
